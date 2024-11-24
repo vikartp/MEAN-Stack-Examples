@@ -1,0 +1,28 @@
+nav {
+  background-color: #f8f9fa; /* Light background color */
+  border: 1px solid #ddd; /* Border color */
+  padding: 10px; /* Padding inside the nav */
+}
+
+nav ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Display list items horizontally */
+}
+
+nav ul li {
+  margin-right: 15px; /* Space between list items */
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: #007bff; /* Link color */
+  padding: 5px 10px; /* Padding inside the links */
+  border-radius: 4px; /* Rounded corners */
+}
+
+nav ul li a:hover {
+  background-color: #e2e6ea; /* Background color on hover */
+  text-decoration: underline; /* Underline on hover */
+}

@@ -1,0 +1,10 @@
+.post { margin-bottom: 20px; }
+.loading { text-align: center; }
+.end-message { text-align: center; color: grey; }
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
